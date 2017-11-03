@@ -1,28 +1,299 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Parent{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Title{
+  position: relative;
+  width: 100%;
+  height: 12vw;
+  background:#000;
 }
-
-.App-title {
-  font-size: 1.5em;
+.Title>p{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 5vw;
+  line-height: 12vw;
 }
-
-.App-intro {
-  font-size: large;
+.Bottom{
+  position: relative;
+  width: 100vw;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Bottom>img{
+  position: relative;
+  width: 100vw;
+  height: 20vw;
+}
+.Child-one{
+  position: relative;
+  width: 100vw;
+}
+.Child-one .imgBx{
+  position: relative;
+  width: 100%;
+}
+.Child-one .imgBx>img{
+  position: relative;
+  width: 100%;
+  height: 26vh;
+}
+.Project{
+position: relative;
+    width: 100vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+.ProBx{
+  position: relative;
+  width: 100%;
+}
+ul{
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.left{
+  position: relative;
+  float: left;
+}
+.clear{
+  clear: both;
+}
+.ProBx>ul>li{
+  position: relative;
+  width: 25%;
+}
+.ProBx>ul>li .Mu-bx{
+    position: relative;
+    /* width: 100%; */
+    padding: 0 3vw;
+}
+.ProBx>ul>li .Mu-bx .M-img-bx{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.ProBx>ul>li .Mu-bx .M-img-bx>img{
+    position: relative;
+    width: 100%;
+    height: 15vw;
+}
+.ProBx>ul>li .Mu-bx .M-img-bx>p{
+  position: relative;
+  width: 100%;
+  color: #000;
+  font-size: 4vw;
+  line-height: 5vw;
+  text-align: center;
+}
+.GreyBx{
+  position: relative;
+  width: 100vw;
+  height: 2vw;
+  background: #f7f6ed;
+}
+.BigList{
+  position: relative;
+  width: 100vw;
+}
+.MtLists{
+  position: relative;
+  width: 100%;
+}
+.ImgBx{
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  background: url(/images/timg3.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.ImgBx>p{
+    position: relative;
+    width: 100%;
+    font-size: 4.5vw;
+    line-height: 5vw;
+    text-align: center;
+    bottom: -21vw;
+    color: #fdfbfb;
+}
+.listBx{
+  position: relative;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.listBx>ul{
+  position: relative;
+  width: 100%;
+}
+.listBx>ul>li{
+  position: relative;
+  width: 50%;
+}
+.price{
+  position: relative;
+  width: 100%;
+}
+.price>p{
+position: relative;
+    text-align: left;
+    color: #FF5722;
+    font-size: 4vw;
+    line-height: 7vw;
+}
+.ggao{
+position: relative;
+    width: 100%;
+    height: 7vw;
+    padding-top: 1vw;
+}
+.ggao .ggbx{
+    position: relative;
+    width: 80%;
+    float: right;
+    border: 0.3vw solid#FF5722;
+    border-radius: 0.5vw;
+}
+.ggao .ggbx>div{
+  position: relative;
+  width: 100%;
+}
+.ggao .ggbx>div .t{
+    position: relative;
+    width: 50%;
+    font-size: 3.8vw;
+    line-height: 5vw;
+    background: #FF5722;
+    color: #fff;
+    text-align: center;
+}
+.ggao .ggbx>div .z{
+    position: relative;
+    width: 50%;
+font-size: 3.8vw;
+    line-height: 5vw;
+    text-align: center;
+}
+.Safe{
+  position: relative;
+  width: 100vw;
+}
+.SafeLists{
+    position: relative;
+    width: 100vw;
+    padding: 3vw 0;
+    border-top: 0.3vw solid#e6e4e4;
+}
+.SafeLists .Safebx{
+  position: relative;
+  width: 94vw;
+  margin-left: 3vw;
+}
+.img-Safe{
+  position: relative;
+  width: 40%;
+}
+.img-Safe .SafeL{
+  position: relative;
+  width: 100%;
+}
+.img-Safe .SafeL>img{
+position: relative;
+    width: 100%;
+    height: 20vw;
+    border-radius: 2vw;
+}
+.text-Safe{
+position: relative;
+    width: 58%;
+    padding: 0 0% 0 2%;
+}
+.SafeR{
+  position: relative;
+  width: 100%;
+}
+.SafeR .Safetitle{
+  position: relative;
+  width: 100%;
+  font-size: 4vw;
+  line-height: 4vw;
+  color: #000;
+}
+.SafeR .Safecont{
+position: relative;
+    width: 100%;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    color: #656363;
+    margin: 1vw 1vw;
+}
+.safePrice{
+  position: relative;
+  width: 100%;
+}
+.safePrice>ul{
+  position: relative;
+  width: 100%;
+}
+.safePrice>ul .L{
+  position: relative;
+  width: 40%;
+}
+.safePrice>ul .L>div{
+  position: relative;
+  width: 100%;
+}
+.safePrice>ul .L>div>p{
+position: relative;
+    width: 100%;
+    /* text-align: center; */
+    font-size: 3vw;
+    line-height: 6.8vw;
+    color: #FF5722;
+}
+.safePrice>ul .R{
+  position: relative;
+  width: 60%;
+}
+.safePrice>ul .R>div{
+    position: relative;
+    width: 100%;
+    margin-top: 1vw;
+}
+.safePrice>ul .R>div .RRbx{
+    position: relative;
+    width: 90%;
+    float: right;
+    border-radius: 1vw;
+    border: 0.3vw solid#FF5722;
+}
+.safePrice>ul .R>div .RRbx>div{
+  position: relative;
+  width: 100%;
+}
+.safePrice>ul .R>div .RRbx>div .t{
+position: relative;
+    width: 50%;
+    background: #FF5722;
+    color: #fff;
+    font-size: 3vw;
+    line-height: 4vw;
+    text-align: center;
+}
+.safePrice>ul .R>div .RRbx>div .z{
+position: relative;
+    width: 50%;
+    color: #FF5722;
+    font-size: 3vw;
+    line-height: 4vw;
+    text-align: center;
 }
